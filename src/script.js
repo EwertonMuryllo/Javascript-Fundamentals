@@ -1,2 +1,6 @@
 
-console.log("hellow world") ;
+var myname;
+
+var Myname;
+
+var my_name;

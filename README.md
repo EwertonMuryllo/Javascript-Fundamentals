@@ -24,7 +24,7 @@
 
 - Criar diretório ***src*** na raiz do projeto
 - Criar arquivo ***script.js*** na raiz do diretório ***src***
-- integrar de forma externa o arquivo ***
+- integrar de forma externa o arquivo ***script.js*** no arquivo ***index.html***
 
 ~~~ html
 <!DOCTYPE html>
@@ -42,3 +42,87 @@
 </body>
 </html>
 ~~~
+
+## COMENTÁRIOS 
+
+### comentário de linha 
+
+~~~ javascript 
+./src/script.js
+//comentário de linnha 
+
+~~~
+
+### comentário de bloco simples 
+
+~~~ javascript
+./src/script.js 
+
+/* comentário de bloco simples */
+
+~~~
+
+### comentário de bloco com marcadores 
+
+~~~ javascript 
+./src/script.js
+/**
+ * comentário de bloco com marcador
+ */
+
+
+## VARIAVEIS
+
+### declaração
+
+~~~ javascript 
+./src/script.js
+
+### Atribuição de valor 
+
+~~~ javascript 
+./src/script.js
+
+var number; 
+
+Number = 5;
+
+### Declaração e atribuição de valor 
+
+~~~ javascript 
+./src/script.js
+
+var number = 5;
+
+### reatribuição de valor
+
+~~~ javascript 
+./src/script.js
+
+var number = 5;
+
+number = 10; 
+
+### Nomenclaturas
+
+-caracteres permitidos para iniciar a nomenclatura de um indicador
+
+~~~ javascript 
+./src/script.js
+
+//letras 
+var number:
+var Number:
+
+//"Number" é diferente de "number"
+
+//sublinhado
+
+var _number;
+
+//cifrão
+var $number:
+
+~~~
+
+-nomenclaturas compostas 

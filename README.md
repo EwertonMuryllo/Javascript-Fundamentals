@@ -126,3 +126,20 @@ var $number:
 ~~~
 
 -nomenclaturas compostas 
+
+~~~ javascript 
+./src/script.js
+
+~~~
+## TIPOS DE DADOS 
+
+### Primitivos 
+
+//camel case
+var myname;
+
+//pascal case
+var Myname;
+
+//snake case
+var my_name;

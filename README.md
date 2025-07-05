@@ -49,7 +49,7 @@
 
 ~~~ javascript 
 ./src/script.js
-//comentário de linnha 
+//comentário de linha 
 
 ~~~
 
@@ -123,23 +123,65 @@ var _number;
 //cifrão
 var $number:
 
-~~~
-
 -nomenclaturas compostas 
 
-~~~ javascript 
+javascript 
 ./src/script.js
 
-~~~
-## TIPOS DE DADOS 
 
-### Primitivos 
-
-//camel case
+// camel case 
 var myname;
 
-//pascal case
+// pascal case
 var Myname;
 
 //snake case
 var my_name;
+
+### Tipos de dados
+
+### Primitivos
+
+// string 
+var FirstName = "Ewerton"
+var surname = "Muryllo"
+var lastname = "Silva"
+
+// Number
+var age = 17;
+var weight = 78,5
+
+// boolean 
+var active = true;
+var permission = false;
+
+// undefined
+var contain;
+console.log(contains)
+
+// null 
+var data = null
+
+~~~
+
+### Não primitivos
+
+~~~ javascript
+
+./src/script.js
+
+// array
+var values = [1,"Muryllo",true,null];
+
+
+// object literal
+var person = {name: "Muryllo",age: 17}
+
+var person = {
+name = "Muryllo"
+age = 17
+};
+
+// function 
+var message = function (){};
+
